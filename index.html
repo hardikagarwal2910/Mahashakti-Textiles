@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Instrument+Sans:ital,wght@0,400..700;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:#F4F1EA;color:#1E2A5E;font-family:"Instrument Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#1E2A5E}a:hover{color:#AE242D}
+::selection{background:#1B2652;color:#F4F1EA}
+</style>
+</helmet>
+
+<div data-screen-label="Home" style="min-width:1080px">
+
+  <sc-if value="{{ showUtilityBar }}" hint-placeholder-val="{{ true }}">
+    <div style="display:flex;justify-content:space-between;gap:24px;padding:12px 48px;border-bottom:1px solid rgba(30,42,94,.15);font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.22em;color:rgba(30,42,94,.6)">
+      <span>AHMEDABAD, INDIA — "MANCHESTER OF THE EAST"</span>
+      <span><a href="tel:+919825638253" style="color:rgba(30,42,94,.6);text-decoration:none" style-hover="color:#AE242D">+91 98256 38253</a> · <a href="mailto:hans@mahakgroup.com" style="color:rgba(30,42,94,.6);text-decoration:none" style-hover="color:#AE242D">HANS@MAHAKGROUP.COM</a></span>
+    </div>
+  </sc-if>
+
+  <header style="display:flex;flex-direction:column;align-items:center;gap:14px;padding:30px 48px 0">
+    <a href="Home.dc.html" aria-label="Mahashakti Textile Mills — home" style="display:flex;flex-direction:column;align-items:center;gap:14px;text-decoration:none;color:#1E2A5E">
+      <svg width="44" height="23" viewBox="0 0 48 26" aria-hidden="true"><path d="M2 24 L13 3 L24 20 L35 3 L46 24" fill="none" stroke="#1E2A5E" stroke-width="4"></path></svg>
+      <span style="text-align:center">
+        <span style="display:block;font-family:'Instrument Serif',serif;font-size:34px;letter-spacing:.02em;line-height:1">Mahashakti</span>
+        <span style="display:block;margin-top:7px;font-size:9.5px;letter-spacing:.5em;color:#AE242D;font-weight:600">TEXTILE&nbsp;MILLS</span>
+      </span>
+    </a>
+    <nav aria-label="Main" style="display:flex;gap:36px;justify-content:center;width:100%;margin-top:8px;padding-top:16px;border-top:1px solid rgba(30,42,94,.15)">
+      <a href="Capabilities.dc.html" style="font-size:12.5px;letter-spacing:.08em;color:#1E2A5E;text-decoration:none;padding-bottom:14px" style-hover="color:#AE242D">Capabilities</a>
+      <a href="Infrastructure.dc.html" style="font-size:12.5px;letter-spacing:.08em;color:#1E2A5E;text-decoration:none;padding-bottom:14px" style-hover="color:#AE242D">Infrastructure</a>
+      <a href="Sustainability.dc.html" style="font-size:12.5px;letter-spacing:.08em;color:#1E2A5E;text-decoration:none;padding-bottom:14px" style-hover="color:#AE242D">Sustainability</a>
+      <a href="Global Reach.dc.html" style="font-size:12.5px;letter-spacing:.08em;color:#1E2A5E;text-decoration:none;padding-bottom:14px" style-hover="color:#AE242D">Global&nbsp;Reach</a>
+      <a href="About.dc.html" style="font-size:12.5px;letter-spacing:.08em;color:#1E2A5E;text-decoration:none;padding-bottom:14px" style-hover="color:#AE242D">About</a>
+      <a href="Contact.dc.html" style="font-size:12.5px;letter-spacing:.08em;color:#AE242D;font-weight:600;text-decoration:none;padding-bottom:14px" style-hover="color:#8E1D25">Enquire&nbsp;→</a>
+    </nav>
+  </header>
+
+  <!-- ——— Hero ——— -->
+  <section style="position:relative;padding:88px 48px 64px;text-align:center;overflow:hidden;border-top:1px solid rgba(30,42,94,.15)">
+    <div style="position:absolute;inset:0;background:radial-gradient(58% 90% at 82% 0%,rgba(37,53,113,.16) 0%,rgba(37,53,113,.05) 45%,transparent 70%),radial-gradient(40% 70% at 8% 100%,rgba(37,53,113,.12) 0%,transparent 65%)"></div>
+    <div style="position:relative">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.3em;color:#AE242D">AIR-JET WEAVING MILL — AHMEDABAD, INDIA</div>
+      <h1 style="margin:30px auto 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(64px,7vw,96px);line-height:1.02;letter-spacing:-.01em;max-width:920px">Two million metres, <em>woven with intent.</em></h1>
+      <p style="margin:28px auto 0;max-width:620px;font-size:16px;line-height:1.75;color:#485481">Every month, 200 Tsudakoma air-jet looms turn yarn into two million metres of fabric — for buyers in 18 countries, and for brands and mills that book the shed as their own.</p>
+      <div style="display:flex;gap:16px;justify-content:center;margin:36px 0 0">
+        <a href="Contact.dc.html" style="background:#1B2652;color:#F4F1EA;font-size:12.5px;letter-spacing:.1em;font-weight:600;padding:16px 32px;text-decoration:none" style-hover="background:#253571;color:#F4F1EA">BUY FABRIC</a>
+        <a href="Contact.dc.html" style="border:1px solid rgba(30,42,94,.4);color:#1E2A5E;font-size:12.5px;letter-spacing:.1em;font-weight:600;padding:16px 32px;text-decoration:none" style-hover="border-color:#1E2A5E;color:#1E2A5E;background:rgba(30,42,94,.05)">BOOK WEAVING CAPACITY</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ——— Plate I ——— -->
+  <sc-if value="{{ heroPlate }}" hint-placeholder-val="{{ true }}">
+    <section style="padding:0 48px">
+      <div style="border:1px solid rgba(30,42,94,.2);padding:14px;background:#FBFAF6;display:flex;align-items:stretch">
+        <div style="flex:none;width:16px;background:#EDE9DD;background-image:linear-gradient(#AE242D,#AE242D);background-size:3px 100%;background-position:center;background-repeat:no-repeat"></div>
+        <img src="media/sizing-beam-poster.jpg" alt="Warp sheet running onto a sizing beam" style="display:block;width:100%;height:min(560px,44vw);object-fit:cover;min-width:0">
+      </div>
+      <div style="display:flex;justify-content:space-between;padding:12px 4px 0;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(30,42,94,.55)">
+        <span>PLATE I — WARP SHEET, JUPITER DYEING-SIZING RANGE</span><span style="color:#AE242D">SELVEDGE EDGE, RED THREAD</span>
+      </div>
+    </section>
+  </sc-if>
+  <sc-if value="{{ heroFullbleed }}" hint-placeholder-val="{{ false }}">
+    <section>
+      <div style="display:flex;align-items:stretch;border-top:1px solid rgba(30,42,94,.2);border-bottom:1px solid rgba(30,42,94,.2)">
+        <div style="flex:none;width:18px;background:#EDE9DD;background-image:linear-gradient(#AE242D,#AE242D);background-size:3px 100%;background-position:center;background-repeat:no-repeat"></div>
+        <img src="media/sizing-beam-poster.jpg" alt="Warp sheet running onto a sizing beam" style="display:block;width:100%;height:min(600px,46vw);object-fit:cover;min-width:0">
+      </div>
+      <div style="display:flex;justify-content:space-between;padding:12px 48px 0;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(30,42,94,.55)">
+        <span>PLATE I — WARP SHEET, JUPITER DYEING-SIZING RANGE</span><span style="color:#AE242D">SELVEDGE EDGE, RED THREAD</span>
+      </div>
+    </section>
+  </sc-if>
+
+  <!-- ——— Stat pull-line ——— -->
+  <sc-if value="{{ showStatLine }}" hint-placeholder-val="{{ true }}">
+    <section style="padding:64px 48px;text-align:center">
+      <p style="margin:0 auto;max-width:1000px;font-family:'Instrument Serif',serif;font-size:clamp(24px,2.4vw,31px);line-height:1.5">200 looms <span style="color:#AE242D">·</span> 2,000,000 metres a month <span style="color:#AE242D">·</span> 18 countries <span style="color:#AE242D">·</span> <em>40% renewable, roadmap to 100%</em></p>
+    </section>
+  </sc-if>
+
+  <div style="height:14px;background:#EDE9DD;background-image:linear-gradient(#AE242D,#AE242D);background-size:100% 2.5px;background-position:center;background-repeat:no-repeat;border-top:1px solid rgba(30,42,94,.15);border-bottom:1px solid rgba(30,42,94,.15)"></div>
+
+  <!-- ——— 01 Capability ——— -->
+  <section style="display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:80px 48px;align-items:center;max-width:1360px;margin:0 auto;box-sizing:border-box">
+    <div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.3em;color:#AE242D">01 — CAPABILITY</div>
+      <h2 style="margin:20px 0 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.08">A shed built on <em>one discipline.</em></h2>
+      <p style="margin:24px 0 0;font-size:15px;line-height:1.75;color:#485481;max-width:460px">Where many mills spread themselves across spinning, processing and garmenting, Mahashakti concentrates its capital and its people on the loom shed — one machine make, one maintenance discipline, one predictable quality signature across every metre.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 28px;margin:28px 0 0;max-width:480px">
+        <div style="display:flex;align-items:baseline;gap:10px;font-size:13.5px;color:#1E2A5E"><span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#AE242D">I</span>200 air-jet looms</div>
+        <div style="display:flex;align-items:baseline;gap:10px;font-size:13.5px;color:#1E2A5E"><span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#AE242D">II</span>190–250 cm reed widths</div>
+        <div style="display:flex;align-items:baseline;gap:10px;font-size:13.5px;color:#1E2A5E"><span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#AE242D">III</span>Cam + dobby shedding</div>
+        <div style="display:flex;align-items:baseline;gap:10px;font-size:13.5px;color:#1E2A5E"><span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#AE242D">IV</span>6-colour weft insertion</div>
+      </div>
+      <a href="Capabilities.dc.html" style="display:inline-block;margin:30px 0 0;font-size:12.5px;font-weight:600;letter-spacing:.08em;color:#AE242D;text-decoration:none;border-bottom:1px solid #AE242D;padding-bottom:3px" style-hover="color:#8E1D25;border-color:#8E1D25">Explore weaving capabilities →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+      <div>
+        <div style="border:1px solid rgba(30,42,94,.2);padding:10px;background:#FBFAF6">
+          <img src="media/warping-creel-poster.jpg" alt="Warping creel" style="display:block;width:100%;height:300px;object-fit:cover">
+        </div>
+        <div style="padding:9px 2px 0;font-family:'IBM Plex Mono',monospace;font-size:8.5px;letter-spacing:.18em;color:rgba(30,42,94,.55)">PLATE II — WARPING CREEL</div>
+      </div>
+      <div style="margin-top:44px">
+        <div style="border:1px solid rgba(30,42,94,.2);padding:10px;background:#FBFAF6">
+          <img src="media/greige-rolls-poster.jpg" alt="Greige fabric rolls" style="display:block;width:100%;height:300px;object-fit:cover">
+        </div>
+        <div style="padding:9px 2px 0;font-family:'IBM Plex Mono',monospace;font-size:8.5px;letter-spacing:.18em;color:rgba(30,42,94,.55)">PLATE III — GREIGE, INSPECTED</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ——— Job-work band ——— -->
+  <section style="position:relative;background:#1B2652;color:#F4F1EA;padding:80px 48px;text-align:center;overflow:hidden">
+    <div style="position:absolute;inset:0;background:radial-gradient(60% 100% at 50% 130%,rgba(244,241,234,.1) 0%,transparent 60%)"></div>
+    <div style="position:relative">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.3em;color:#E8B54F">JOB-WORK WEAVING</div>
+      <h2 style="margin:22px auto 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.12;max-width:780px">Need weaving capacity? <em>The shed is yours.</em></h2>
+      <p style="margin:20px auto 0;max-width:560px;font-size:14.5px;line-height:1.7;color:rgba(244,241,234,.75)">Bring your yarn or beams — take back woven fabric at committed quality and committed dates, on the same 200-loom Tsudakoma park.</p>
+      <a href="Contact.dc.html" style="display:inline-block;margin:32px 0 0;border:1px solid rgba(244,241,234,.5);color:#F4F1EA;font-size:12.5px;letter-spacing:.1em;font-weight:600;padding:16px 32px;text-decoration:none" style-hover="background:#F4F1EA;color:#1B2652;border-color:#F4F1EA">BOOK CAPACITY</a>
+    </div>
+  </section>
+
+  <!-- ——— 02 Infrastructure ——— -->
+  <section style="display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:80px 48px;align-items:center;max-width:1360px;margin:0 auto;box-sizing:border-box">
+    <div>
+      <div style="border:1px solid rgba(30,42,94,.2);padding:10px;background:#FBFAF6">
+        <video autoplay muted loop playsinline poster="media/texturising-hall-poster.jpg" style="display:block;width:100%;height:380px;object-fit:cover">
+          <source src="media/texturising-hall.webm" type="video/webm"></source>
+        </video>
+      </div>
+      <div style="padding:9px 2px 0;font-family:'IBM Plex Mono',monospace;font-size:8.5px;letter-spacing:.18em;color:rgba(30,42,94,.55)">PLATE IV — TEXTURISING PLANT, CAPTIVE YARN</div>
+    </div>
+    <div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.3em;color:#AE242D">02 — INFRASTRUCTURE</div>
+      <h2 style="margin:20px 0 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.08">Yarn to fabric, <em>under one roof.</em></h2>
+      <p style="margin:24px 0 0;font-size:15px;line-height:1.75;color:#485481;max-width:470px">A 50,000 square yard campus with in-house warping, sizing, weaving, singeing and inspection — plus a captive texturising plant, insulating fabric quality from the open yarn market.</p>
+      <a href="Infrastructure.dc.html" style="display:inline-block;margin:28px 0 0;font-size:12.5px;font-weight:600;letter-spacing:.08em;color:#AE242D;text-decoration:none;border-bottom:1px solid #AE242D;padding-bottom:3px" style-hover="color:#8E1D25;border-color:#8E1D25">See the infrastructure →</a>
+    </div>
+  </section>
+
+  <div style="height:14px;background:#EDE9DD;background-image:linear-gradient(#AE242D,#AE242D);background-size:100% 2.5px;background-position:center;background-repeat:no-repeat;border-top:1px solid rgba(30,42,94,.15);border-bottom:1px solid rgba(30,42,94,.15)"></div>
+
+  <!-- ——— 03 Sustainability ——— -->
+  <section style="padding:80px 48px;max-width:1360px;margin:0 auto;box-sizing:border-box">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center">
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.3em;color:#AE242D">03 — SUSTAINABILITY</div>
+        <h2 style="margin:20px 0 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.08">40% renewable today. <em>100% on the roadmap.</em></h2>
+        <p style="margin:24px 0 0;font-size:15px;line-height:1.75;color:#485481;max-width:470px">Around 40% of the electricity that drives the looms already comes from renewable sources — with a stated roadmap to 100%. No slogans; the numbers carry the story.</p>
+        <a href="Sustainability.dc.html" style="display:inline-block;margin:28px 0 0;font-size:12.5px;font-weight:600;letter-spacing:.08em;color:#AE242D;text-decoration:none;border-bottom:1px solid #AE242D;padding-bottom:3px" style-hover="color:#8E1D25;border-color:#8E1D25">Read the roadmap →</a>
+      </div>
+      <div>
+        <div style="display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.18em;color:rgba(30,42,94,.6)"><span>TODAY</span><span>ROADMAP</span></div>
+        <div style="margin-top:10px;height:10px;background:#E7E2D4;position:relative">
+          <div style="position:absolute;left:0;top:0;bottom:0;width:40%;background:#1B2652"></div>
+          <div style="position:absolute;left:40%;top:-4px;bottom:-4px;width:2.5px;background:#AE242D"></div>
+        </div>
+        <div style="margin-top:12px;display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.12em;color:#1E2A5E"><span style="color:#AE242D">40% RENEWABLE — TODAY</span><span>100% — TARGET</span></div>
+        <p style="margin:26px 0 0;font-size:13.5px;line-height:1.7;color:#485481;border-top:1px solid rgba(30,42,94,.15);padding-top:18px">Managed under certified frameworks — ISO 14001, amfori BEPI, Better Cotton — so claims are backed by systems, not adjectives.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ——— 04 Global reach ——— -->
+  <section style="padding:0 48px 80px;max-width:1360px;margin:0 auto;box-sizing:border-box">
+    <div style="text-align:center;padding-bottom:44px">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.3em;color:#AE242D">04 — GLOBAL REACH</div>
+      <h2 style="margin:20px auto 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.08">18 countries. <em>Four regions.</em></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(30,42,94,.2);border-left:1px solid rgba(30,42,94,.2)">
+      <div style="border-right:1px solid rgba(30,42,94,.2);border-bottom:1px solid rgba(30,42,94,.2);padding:28px 24px"><div style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:#AE242D;letter-spacing:.2em">I</div><div style="margin-top:12px;font-family:'Instrument Serif',serif;font-size:24px">Europe</div></div>
+      <div style="border-right:1px solid rgba(30,42,94,.2);border-bottom:1px solid rgba(30,42,94,.2);padding:28px 24px"><div style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:#AE242D;letter-spacing:.2em">II</div><div style="margin-top:12px;font-family:'Instrument Serif',serif;font-size:24px">Africa</div></div>
+      <div style="border-right:1px solid rgba(30,42,94,.2);border-bottom:1px solid rgba(30,42,94,.2);padding:28px 24px"><div style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:#AE242D;letter-spacing:.2em">III</div><div style="margin-top:12px;font-family:'Instrument Serif',serif;font-size:24px">The Americas</div></div>
+      <div style="border-right:1px solid rgba(30,42,94,.2);border-bottom:1px solid rgba(30,42,94,.2);padding:28px 24px"><div style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:#AE242D;letter-spacing:.2em">IV</div><div style="margin-top:12px;font-family:'Instrument Serif',serif;font-size:24px">Indian subcontinent</div></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:baseline;padding:16px 4px 0">
+      <span style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.18em;color:rgba(30,42,94,.55)">EXPORT DOCUMENTATION, PACKING &amp; SCHEDULES — HANDLED IN-HOUSE</span>
+      <a href="Global Reach.dc.html" style="font-size:12.5px;font-weight:600;letter-spacing:.08em;color:#AE242D;text-decoration:none;border-bottom:1px solid #AE242D;padding-bottom:3px" style-hover="color:#8E1D25;border-color:#8E1D25">Where we ship →</a>
+    </div>
+  </section>
+
+  <!-- ——— Certifications ——— -->
+  <section style="border-top:1px solid rgba(30,42,94,.15);padding:44px 48px;max-width:1360px;margin:0 auto;box-sizing:border-box">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap">
+      <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.3em;color:#AE242D">CERTIFIED &amp; AUDITED</span>
+      <div style="display:flex;gap:40px;flex-wrap:wrap">
+        <span style="font-family:'Instrument Serif',serif;font-size:19px">ISO 9001 <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:rgba(30,42,94,.55);letter-spacing:.1em">QUALITY</span></span>
+        <span style="font-family:'Instrument Serif',serif;font-size:19px">ISO 14001 <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:rgba(30,42,94,.55);letter-spacing:.1em">ENVIRONMENT</span></span>
+        <span style="font-family:'Instrument Serif',serif;font-size:19px">amfori BEPI <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:rgba(30,42,94,.55);letter-spacing:.1em">REPORTED</span></span>
+        <span style="font-family:'Instrument Serif',serif;font-size:19px">Better Cotton <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:rgba(30,42,94,.55);letter-spacing:.1em">MEMBER</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ——— Closing CTA ——— -->
+  <section style="position:relative;border-top:1px solid rgba(30,42,94,.15);padding:96px 48px;text-align:center;overflow:hidden">
+    <div style="position:absolute;inset:0;background:radial-gradient(50% 80% at 50% 110%,rgba(37,53,113,.14) 0%,transparent 65%)"></div>
+    <div style="position:relative">
+      <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:64px;line-height:1.05">Talk to <em>the mill.</em></h2>
+      <p style="margin:20px auto 0;max-width:480px;font-size:15px;line-height:1.7;color:#485481">Enquiries go straight to the Director's desk — not a shared inbox.</p>
+      <a href="Contact.dc.html" style="display:inline-block;margin:32px 0 0;background:#AE242D;color:#F4F1EA;font-size:12.5px;letter-spacing:.1em;font-weight:600;padding:17px 36px;text-decoration:none" style-hover="background:#8E1D25;color:#F4F1EA">START AN ENQUIRY</a>
+    </div>
+  </section>
+
+  <!-- ——— Footer ——— -->
+  <footer style="background:#1B2652;color:#F4F1EA">
+    <div style="height:14px;background:#EDE9DD;background-image:linear-gradient(#AE242D,#AE242D);background-size:100% 2.5px;background-position:center;background-repeat:no-repeat"></div>
+    <div style="display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:48px;padding:64px 48px;max-width:1360px;margin:0 auto;box-sizing:border-box">
+      <div>
+        <svg width="40" height="21" viewBox="0 0 48 26" aria-hidden="true"><path d="M2 24 L13 3 L24 20 L35 3 L46 24" fill="none" stroke="#F4F1EA" stroke-width="4"></path></svg>
+        <div style="margin-top:16px;font-family:'Instrument Serif',serif;font-size:26px">Mahashakti</div>
+        <div style="margin-top:6px;font-size:9px;letter-spacing:.5em;color:#E8B54F;font-weight:600">TEXTILE MILLS</div>
+        <p style="margin:20px 0 0;font-size:13px;line-height:1.7;color:rgba(244,241,234,.65);max-width:280px">Air-jet weaving mill in Ahmedabad, India. 200 Tsudakoma looms, two million metres a month, 18 export countries.</p>
+      </div>
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.24em;color:rgba(244,241,234,.55)">THE MILL</div>
+        <div style="display:flex;flex-direction:column;gap:11px;margin-top:18px">
+          <a href="Capabilities.dc.html" style="font-size:13.5px;color:#F4F1EA;text-decoration:none" style-hover="color:#E8B54F">Capabilities</a>
+          <a href="Infrastructure.dc.html" style="font-size:13.5px;color:#F4F1EA;text-decoration:none" style-hover="color:#E8B54F">Infrastructure</a>
+          <a href="Sustainability.dc.html" style="font-size:13.5px;color:#F4F1EA;text-decoration:none" style-hover="color:#E8B54F">Sustainability</a>
+          <a href="Global Reach.dc.html" style="font-size:13.5px;color:#F4F1EA;text-decoration:none" style-hover="color:#E8B54F">Global Reach</a>
+          <a href="About.dc.html" style="font-size:13.5px;color:#F4F1EA;text-decoration:none" style-hover="color:#E8B54F">About</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.24em;color:rgba(244,241,234,.55)">ENQUIRIES</div>
+        <div style="display:flex;flex-direction:column;gap:11px;margin-top:18px">
+          <a href="Contact.dc.html" style="font-size:13.5px;color:#F4F1EA;text-decoration:none" style-hover="color:#E8B54F">Start an enquiry</a>
+          <a href="tel:+919825638253" style="font-size:13.5px;color:#F4F1EA;text-decoration:none" style-hover="color:#E8B54F">+91 98256 38253</a>
+          <a href="https://wa.me/919825638253" style="font-size:13.5px;color:#F4F1EA;text-decoration:none" style-hover="color:#E8B54F">WhatsApp the Director</a>
+          <a href="mailto:hans@mahakgroup.com" style="font-size:13.5px;color:#F4F1EA;text-decoration:none" style-hover="color:#E8B54F">hans@mahakgroup.com</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.24em;color:rgba(244,241,234,.55)">THE CAMPUS</div>
+        <p style="margin:18px 0 0;font-size:13.5px;line-height:1.8;color:rgba(244,241,234,.8)">305/2, 306/1, Timba, Dascroi<br>Ahmedabad, Gujarat 382210, India</p>
+        <p style="margin:14px 0 0;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;color:rgba(244,241,234,.55)">GSTIN 24AAYFM5954F2ZQ<br>PARTNERSHIP FIRM</p>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(244,241,234,.15)">
+      <div style="display:flex;justify-content:space-between;gap:24px;padding:20px 48px;max-width:1360px;margin:0 auto;box-sizing:border-box;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.16em;color:rgba(244,241,234,.5)">
+        <span>© 2026 MAHASHAKTI TEXTILE MILLS</span>
+        <span>ISO 9001 · ISO 14001 · AMFORI BEPI · BETTER COTTON</span>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;heroVariant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;plate&quot;,&quot;fullbleed&quot;],&quot;default&quot;:&quot;plate&quot;,&quot;tsType&quot;:&quot;\&quot;plate\&quot; | \&quot;fullbleed\&quot;&quot;,&quot;section&quot;:&quot;Hero&quot;},&quot;showStatLine&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;},&quot;showUtilityBar&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    this._vidTimer = setInterval(() => {
+      document.querySelectorAll("video").forEach((v) => {
+        v.muted = true;
+        v.loop = true;
+        if (v.paused) v.play().catch(() => {});
+      });
+    }, 1500);
+  }
+  componentWillUnmount() {
+    clearInterval(this._vidTimer);
+  }
+  renderVals() {
+    const variant = this.props.heroVariant ?? "plate";
+    return {
+      heroPlate: variant === "plate",
+      heroFullbleed: variant === "fullbleed",
+      showStatLine: this.props.showStatLine ?? true,
+      showUtilityBar: this.props.showUtilityBar ?? true,
+    };
+  }
+}
+</script>
+</body>
+</html>
