@@ -81,14 +81,23 @@ input:focus,textarea:focus{outline:2px solid #253571;outline-offset:-1px}
       </div>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px 20px;margin:26px 0 0">
-        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">YOUR NAME</label><input type="text" placeholder="Full name" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
-        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">COMPANY</label><input type="text" placeholder="Company / mill / brand" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
-        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">EMAIL</label><input type="email" placeholder="you@company.com" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
-        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">PHONE (OPTIONAL)</label><input type="tel" placeholder="+ country code" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
-        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">COUNTRY</label><input type="text" placeholder="Country" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
-        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">INDICATIVE VOLUME (OPTIONAL)</label><input type="text" placeholder="e.g. 50,000 m / month" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
+        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">YOUR NAME</label><input type="text" name="name" placeholder="Full name" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
+        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">COMPANY</label><input type="text" name="company" placeholder="Company / mill / brand" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
+        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">EMAIL</label><input type="email" name="email" placeholder="you@company.com" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
+        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">PHONE (OPTIONAL)</label><input type="tel" name="phone" placeholder="+ country code" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
+        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">COUNTRY</label><input type="text" name="country" placeholder="Country" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
+        <div><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">INDICATIVE VOLUME (OPTIONAL)</label><input type="text" name="volume" placeholder="e.g. 50,000 m / month" style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E"></div>
       </div>
-      <div style="margin:20px 0 0"><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">REQUIREMENT</label><textarea rows="4" placeholder="Construction, width, blend, timelines — whatever you have." style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E;resize:vertical"></textarea></div>
+      <div style="margin:20px 0 0"><label style="display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:rgba(30,42,94,.6)">REQUIREMENT</label><textarea rows="4" name="requirement" placeholder="Construction, width, blend, timelines — whatever you have." style="box-sizing:border-box;width:100%;margin-top:9px;border:1px solid rgba(30,42,94,.3);background:#F4F1EA;padding:13px 14px;font-family:'Instrument Sans',sans-serif;font-size:14px;color:#1E2A5E;resize:vertical"></textarea></div>
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+
+      <sc-if value="{{ errValidation }}" hint-placeholder-val="{{ false }}">
+        <div style="margin:22px 0 0;border:1px solid #AE242D;background:#F6E7E2;padding:16px 20px;font-size:13px;line-height:1.6;color:#1E2A5E">Please fill in your name, email and requirement before sending.</div>
+      </sc-if>
+
+      <sc-if value="{{ errSend }}" hint-placeholder-val="{{ false }}">
+        <div style="margin:22px 0 0;border:1px solid #AE242D;background:#F6E7E2;padding:16px 20px;font-size:13px;line-height:1.6;color:#1E2A5E">Could not send just now. Please email <a href="mailto:hans@mahakgroup.com" style="color:#AE242D">hans@mahakgroup.com</a> or WhatsApp the Director — the direct lines on this page always work.</div>
+      </sc-if>
 
       <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
         <div style="margin:22px 0 0;border:1px solid rgba(30,42,94,.25);background:#EDE9DD;padding:18px 20px">
@@ -98,7 +107,7 @@ input:focus,textarea:focus{outline:2px solid #253571;outline-offset:-1px}
       </sc-if>
 
       <div style="display:flex;align-items:center;gap:18px;margin:26px 0 0">
-        <button type="button" onClick="{{ submit }}" style="background:#AE242D;color:#F4F1EA;border:none;font-family:'Instrument Sans',sans-serif;font-size:12.5px;letter-spacing:.1em;font-weight:600;padding:16px 34px;cursor:pointer" style-hover="background:#8E1D25">SEND ENQUIRY</button>
+        <button type="button" onClick="{{ submit }}" style="background:#AE242D;color:#F4F1EA;border:none;font-family:'Instrument Sans',sans-serif;font-size:12.5px;letter-spacing:.1em;font-weight:600;padding:16px 34px;cursor:pointer" style-hover="background:#8E1D25"><sc-if value="{{ sending }}" hint-placeholder-val="{{ false }}">SENDING…</sc-if><sc-if value="{{ notSending }}" hint-placeholder-val="{{ true }}">SEND ENQUIRY</sc-if></button>
         <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.14em;color:rgba(30,42,94,.5)">GOES TO THE DIRECTOR'S DESK — NOT A SHARED INBOX</span>
       </div>
     </div>
@@ -175,8 +184,14 @@ input:focus,textarea:focus{outline:2px solid #253571;outline-offset:-1px}
 </x-dc>
 <script type="text/x-dc" data-dc-script>
 class Component extends DCLogic {
-  state = { type: "fabric", sent: false };
+  // Enquiries POST to Formspree (free tier). The form id after /f/ is the only
+  // config: swap it here if the Formspree form is ever recreated.
+  state = { type: "fabric", sent: false, sending: false, error: "" };
   renderVals() {
+    const val = (n) => {
+      const el = document.querySelector('input[name="' + n + '"], textarea[name="' + n + '"]');
+      return el ? el.value.trim() : "";
+    };
     return {
       typeFabric: this.state.type === "fabric",
       typeJobwork: this.state.type === "jobwork",
@@ -185,7 +200,33 @@ class Component extends DCLogic {
       setTypeJobwork: () => this.setState({ type: "jobwork" }),
       setTypeOther: () => this.setState({ type: "other" }),
       sent: this.state.sent,
-      submit: () => this.setState({ sent: true }),
+      sending: this.state.sending,
+      notSending: !this.state.sending,
+      errValidation: this.state.error === "validation",
+      errSend: this.state.error === "send",
+      submit: () => {
+        if (this.state.sending || this.state.sent) return;
+        if (!val("name") || !val("email") || !val("requirement")) {
+          this.setState({ error: "validation" });
+          return;
+        }
+        const typeLabel = { fabric: "Fabric purchase", jobwork: "Job-work weaving", other: "Other" }[this.state.type];
+        const data = new FormData();
+        data.append("enquiry_type", typeLabel);
+        ["name", "company", "email", "phone", "country", "volume", "requirement", "_gotcha"].forEach((n) => data.append(n, val(n)));
+        data.append("_subject", "Website enquiry — " + val("name") + (val("company") ? ", " + val("company") : ""));
+        this.setState({ sending: true, error: "" });
+        fetch("https://formspree.io/f/YOUR_FORM_ID", {
+          method: "POST",
+          body: data,
+          headers: { Accept: "application/json" },
+        })
+          .then((res) => {
+            if (!res.ok) throw new Error("HTTP " + res.status);
+            this.setState({ sent: true, sending: false });
+          })
+          .catch(() => this.setState({ sending: false, error: "send" }));
+      },
     };
   }
 }
